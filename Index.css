@@ -1,0 +1,125 @@
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000000; /* Set text color to white */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+}
+
+header {
+    background-color: #3b3535;
+    padding: 20px 0;
+    text-align: center; /* Center text in header */
+}
+
+header h1 {
+    margin: 0;
+    color: #fff; /* Set text color to white */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Set text color to white */
+    text-decoration: none;
+    padding: 10px; /* Add padding to make the buttons clickable */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+nav ul li a:hover {
+    background-color: #0000ff; /* Change background color on hover */
+}
+
+section {
+    padding: 50px 0;
+    text-align: center; /* Center text in sections */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; /* Set flex direction to row */
+}
+
+.about-content img {
+    max-width: 200px; /* Adjust image width as needed */
+    border-radius: 25%; /* To make the image circular */
+    margin-right: 20px; /* Add some margin to create space between the image and text */
+}
+
+.about-text {
+    text-align: left; /* Align text to the left */
+}
+
+/* Style for the button */
+.download-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Style for the button on hover */
+.download-button:hover {
+    background-color: darkblue;
+}
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.skills-list li:hover {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #000000; /* Set text color to white */
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info li a {
+    color: #0000ff; /* Set hyperlink color to white */
+}
