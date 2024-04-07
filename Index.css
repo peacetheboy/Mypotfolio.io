@@ -60,7 +60,7 @@ section {
 .about-content img {
     max-width: 200px; /* Adjust image width as needed */
     border-radius: 25%; /* To make the image circular */
-    margin-right: 20px; /* Add some margin to create space between the image and text */
+    position: relative;
 }
 
 .about-text {
