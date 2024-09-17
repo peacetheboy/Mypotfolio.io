@@ -97,8 +97,6 @@ section {
     background-color: darkblue;
 }
 .skills-list {
-    list-style-type: none;
-    text-decoration: none;
     color: inherit; /* Inherit the color from the parent element */
     padding: 0;
 }
