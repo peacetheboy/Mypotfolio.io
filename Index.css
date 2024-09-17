@@ -115,7 +115,7 @@ section {
 
 /* Optional: Make text bold to simulate a button */
 .skills-list a {
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 footer {
