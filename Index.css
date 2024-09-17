@@ -110,7 +110,7 @@ section {
 
 .skills-list a:hover {
     color: blue;
-    cursor: pointer; /* Makes it look like a clickable button */
+    cursor: pointer; 
 }
 
 /* Optional: Make text bold to simulate a button */
