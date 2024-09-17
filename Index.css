@@ -98,6 +98,8 @@ section {
 }
 .skills-list {
     list-style-type: none;
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent element */
     padding: 0;
 }
 
@@ -106,8 +108,14 @@ section {
     cursor: pointer;
 }
 
-.skills-list li:hover {
-    background-color: #fff;
+.skills-list a:hover {
+    color: blue;
+    cursor: pointer; /* Makes it look like a clickable button */
+}
+
+/* Optional: Make text bold to simulate a button */
+.skills-list a {
+    font-weight: bold;
 }
 
 footer {
